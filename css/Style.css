@@ -1,10 +1,7 @@
 #container{
 	background-color: rgba(154,205,50, 0.3);
-	border-bottom: 7px solid rgba(107,152,0,0.6);
-	min-height:5px;	
+	border-bottom: 7px solid rgba(107,152,0,0.6);	
 	width: 100%;
-	padding: 15px;
-	margin: -10px;
 	display: inline-block;
 }
 .content-text{
@@ -18,11 +15,9 @@
 	height: 60px;
 	font-size: 30px;
 	float: right;
-	/*margin-top: 10px;*/
-	/*padding: 5px; */
-	margin-right:-10px 0 -10px 0;
-	border: 0px solid rgba(107,152,0,0.6);
-	color: #eeeeee;
+	/*padding: 5px;*/
+	border: 3px solid rgba(107,152,0,0.6);
+	color: #eee;
 	border-radius: 0 0 15px 15px;
 }
 
@@ -35,6 +30,39 @@
 	font-size: 15px;
 	text-align: center;
 	border: 7px solid rgba(107,152,0,1);
-	display: inline-block;
 	float: right;
+}
+
+#lightBlueRec{
+	width: 100px;
+	height: 90px;
+	background-color: #87CEEB;
+	position: absolute;
+	opacity: 0.7;
+}
+#blueRec{
+	width: 100px;
+	height: 90px;
+	background-color: blue;
+	position: absolute;
+	opacity: 0.7;
+}
+
+#pinkRec{
+	width: 100px;
+	height: 90px;
+	background-color: #ff87c3;
+	position: absolute;
+	top: 70px;
+	left: 70px;
+	opacity: 0.7;
+}
+#magentaRec{
+	width: 100px;
+	height: 90px;
+	background-color:  #FF00FF;
+	position: absolute;
+	top: 150px;
+	left:200px;
+	opacity: 0.7;
 }
