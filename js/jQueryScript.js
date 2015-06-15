@@ -1,7 +1,7 @@
 /* First Homework */
 $(document).ready(function() {
 	$("#btn").click(function() {
-		$("#content").toggle();
+		$("#container").slideToggle(1100);
 		if ($("#btn").val() == "Hide") {
 			$("#btn").attr("value", "Show");
 		} else {
@@ -19,13 +19,13 @@ $(document).ready(function() {
 	/* Function for Light Blue Rectangle */
 	 function lightBlueRec() {
 		$("#lightBlueRec").animate({
-			left : "1250px",
+			left : "93%",
 		}, 1100).animate({
-			top : "550px",
+			top : "85%",
 		}, 1000).animate({
-			left : "-=1230px",
+			left : "-=92%",
 		}, 1200).animate({
-			top : "-=535px",
+			top : "-=83%",
 		}, 1300);
 	};
 	
@@ -39,13 +39,13 @@ $(document).ready(function() {
 	/* Function for Blue Rectangle */
 	function blueRec() {
 		$("#blueRec").animate({
-			left : "1250px",
+			left : "93%",
 		}, 1500).animate({
-			top : "550px",
+			top : "85%",
 		}, 1400).animate({
-			left : "-=1230px",
+			left : "-=92%",
 		}, 1300).animate({
-			top : "-=535px",
+			top : "-=83%",
 		}, 1200);
 	};
 	
@@ -58,13 +58,13 @@ $(document).ready(function() {
 	/* Function for Magenta Rectangle */
 	 function magentaRec(){
 		$("#magentaRec").animate({
-			left : "+=900px",
+			left : "75%",
 		}, 1300).animate({
-			top : "+=250px",
+			top : "67%",
 		}, 1200).animate({
-			left : "-=900px",
+			left : "-=55%",
 		}, 1100).animate({
-			top : "-=250px",
+			top : "-=47%",
 		}, 1000);
 	};
 	
@@ -77,13 +77,13 @@ $(document).ready(function() {
 	/*Function for Pink Rectangle*/
 	 function pinkRec(){
 		$("#pinkRec").animate({
-			left : "+=1110px",
+			left : "90%",
 		}, 1000).animate({
-			top : "+=410px",
+			top : "80%",
 		}, 1000).animate({
-			left : "-=1110px",
+			left : "-=85%",
 		}, 1000).animate({
-			top : "-=410px",
+			top : "-=73%",
 		}, 1000);
 	};
 	$(function() {
